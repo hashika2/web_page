@@ -25,6 +25,9 @@ background-repeat:no-repeat;
 	color:white;
 	text-decoration:none;	
 }
+.list ul li a :hover{
+	background-color:rgb(243, 243, 21);
+}
 .content {
 	background-image:url(5.jpg);
 	width:100%;
