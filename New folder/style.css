@@ -61,6 +61,12 @@ background-repeat:no-repeat;
 }
 .page-side .item1 img{
 	margin-left:15%;
+	border: 2px solid yellow;
+	
+}
+.page-side .item2 img{
+	margin-right:50px;
+	border: 2px solid yellow;
 	
 }
 .page-side .item1 h2{
@@ -74,6 +80,9 @@ background-repeat:no-repeat;
 	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	color:orange;
 	
+}
+.page-side .item1 p{
+	margin-left:20px;
 }
 .page-side .item2{
 	float:right;
