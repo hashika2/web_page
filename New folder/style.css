@@ -3,6 +3,18 @@
 body{
 	background:red;	
 }
+ .slideBar{
+	background-image: url(2.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:600px;
+	width: 100%;
+
+}  
+.slideBar span{
+	margin-left:80%;
+	padding-top:200px;
+}
 .container .slideBar{
 
 width:100%;
