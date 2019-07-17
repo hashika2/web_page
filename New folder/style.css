@@ -39,7 +39,7 @@ background-repeat:no-repeat;
 	text-decoration:none;	
 }
 .list ul li  :hover{
-	background-color:rgb(15, 15, 15);
+	color:rgb(15, 15, 15);
 }
 .content {
 	background-image:url(5.jpg);
@@ -49,6 +49,22 @@ background-repeat:no-repeat;
 	background-size:cover;
 	margin-top:200px;
 }
+.content h2{
+	padding-left: 35%;
+	padding-top:200px;
+}
+
+.content form {
+	opacity:.6;
+}
+.content form fieldset{
+	margin-left:30%;
+	margin-right:30%;
+	margin-top:50px;
+	background-color: aliceblue;
+	
+}
+
 .content .p p{
 	margin-left:20%;
 	margin-right:20%;
