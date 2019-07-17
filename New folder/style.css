@@ -76,24 +76,28 @@ background-repeat:no-repeat;
 	float:left;	
 	width:40%;
 }
+.page-side .item2 {
+	float: right;
+	width: 40%;
+}
 .page-side .item1 img{
-	margin-left:15%;
+	margin-left:25%;
 	border: 2px solid yellow;
 	
 }
 .page-side .item2 img{
-	margin-right:50px;
+	margin-left:120px;
 	border: 2px solid yellow;
 	
 }
 .page-side .item1 h2{
-	margin-left:10%;
+	margin-left:25%;
 	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	color:orange;
 	
 }
 .page-side .item2 h2{
-	margin-left:10%;
+	margin-left:25%;
 	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	color:orange;
 	
