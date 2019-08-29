@@ -21,6 +21,12 @@ section{
     background: #fff;
    
 }
+ 
+.bgPulse b{
+    width: 10%;
+    margin-left:20%;
+    top:80%;
+}
 
 .bgPulse span:nth-child(1){
     top: 50%;
@@ -49,7 +55,7 @@ section{
 }
 .bgPulse span:nth-child(5){
     top: 10%;
-    left: 30%;
+    left: 10%;
     animation:animate 8s linear infinite;
 }
 .bgPulse span:nth-child(6){
@@ -73,14 +79,14 @@ section{
     left: 40%;
     animation:animate 8s linear infinite;
 }
-.bgPulse span:nth-child(16){
+.bgPulse b:nth-child(16){
     top: 10%;
     left: 40%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: red;
-    font-size: 50px;
+    color: rgb(223, 193, 193);
+    font-size: 20px;
     text-align: center;
-    animation:animate 8s linear infinite;
+    animation:animate 10s linear infinite;
 }
 .bgPulse span:nth-child(10){
     top: 30%;
@@ -91,6 +97,7 @@ section{
     
     animation:animate 10s linear infinite;
 }
+
 .bgPulse span:nth-child(12){
     top: 80%;
     left: 80%;
@@ -98,7 +105,7 @@ section{
 }
 .bgPulse span:nth-child(13){
     top: 50%;
-    left: 10%;
+    left: 5%;
     animation:animate 14s linear infinite;
 }
 .bgPulse span:nth-child(14){
@@ -115,6 +122,71 @@ section{
     top: 20%;
     left: 30%;
     animation:animate 13s linear infinite;
+}
+ul{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+ul li{
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    letter-spacing: 15px;
+    color: #fff;
+    text-shadow: none;
+    animation:anima 1s infinite linear;
+}
+ul li:nth-child(1){
+    animation-delay: .2s;
+}
+ul li:nth-child(2){
+    animation-delay: .4s;
+}
+ul li:nth-child(3){
+    animation-delay: .6s;
+}
+ul li:nth-child(4){
+    animation-delay: .8s;
+}
+ul li:nth-child(5){
+    animation-delay: 1s;
+}
+ul li:nth-child(6){
+    animation-delay: 1.2s;
+}
+ul li:nth-child(7){
+    animation-delay: 1.4s;
+}
+@keyframes anima{
+    0%{
+        color: aqua;
+        text-shadow: none;
+    }
+    20%{
+        color: rgb(195, 226, 59);
+        text-shadow: none;
+    }
+    25%{
+        color: rgb(148, 38, 175);
+        text-shadow: 0 0 7px #fff000;
+    }
+    55%{
+        color: rgb(59, 175, 230);
+        text-shadow: 0 0 7px #fff000;
+    }
+    75%{
+        color: rgb(148, 38, 175);
+        text-shadow: 0 0 7px #fff000;
+    }
+    100%{
+        color: rgb(47, 192, 236);
+        text-shadow: 0 0 7px #fff000;
+    }
 }
 @keyframes animate {
     0%{
