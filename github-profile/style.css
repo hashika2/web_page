@@ -16,20 +16,21 @@ section{
 }
 .bgPulse span{
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background: #fff;
    
 }
  
-.bgPulse b{
+ b{
     width: 10%;
     margin-left:20%;
-    top:80%;
+    margin-top: 80%;
+    
 }
 
 .bgPulse span:nth-child(1){
-    top: 50%;
+    top: 75%;
     left: 20%;
     animation:animate 10s linear infinite;
 }
@@ -89,7 +90,7 @@ section{
     animation:animate 10s linear infinite;
 }
 .bgPulse span:nth-child(10){
-    top: 30%;
+    top: 20%;
     left: 15%;
     background-image: url("profile.jpg");
     background-size: cover;
@@ -114,18 +115,18 @@ section{
     animation:animate 4s linear infinite;
 }
 .bgPulse span:nth-child(15){
-    top: 20%;
-    left: 30%;
+    top: 5%;
+    left: 40%;
     animation:animate 9s linear infinite;
 }
 .bgPulse span:nth-child(11){
-    top: 20%;
+    top: 70%;
     left: 30%;
     animation:animate 13s linear infinite;
 }
 ul{
     position: absolute;
-    top: 25%;
+    top: 10%;
     left: 25%;
     transform: translate(-50%,-50%);
     margin: 0%;
@@ -214,4 +215,50 @@ ul li:nth-child(7){
     100%{
         background-color: rgb(37, 15, 13);
     }
+}
+
+section .about{
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    
+
+
+}
+table th{
+    color: #fff;
+    font-size: 40px;
+    height: 80px;
+}
+table tr {
+    width: 30px;
+    height: 30px;
+}
+table tr td{
+    color: aqua;
+    font-size:25px; 
+}
+.about p{
+    margin-top:50%;
+    margin-left:50%;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 68%;
+    transform: translate(-50%,-50%);
+    margin: 0%;
+    padding: 0%;
+   
+}
+.content table tr td{
+    margin-top:60%;
+    margin-left:50%;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
