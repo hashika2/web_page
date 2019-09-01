@@ -92,7 +92,7 @@ section{
 .bgPulse span:nth-child(10){
     top: 20%;
     left: 15%;
-    background-image: url("profile.jpg");
+    background-image: url("images/profile.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     
