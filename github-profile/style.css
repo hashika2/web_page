@@ -263,7 +263,7 @@ section .about{
 table th{
     color: #fff;
     font-size: 40px;
-    height: 80px;
+    height: 60px;
 }
 table tr {
     width: 30px;
@@ -334,4 +334,26 @@ iframe{
     padding: 0%;
     display: flex;
 }
+.about1{
+    position: absolute;
+    top:30%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+.about1 table{
+    margin-top: 100%;
+    
+}
+.about1 table th{
+    color: #181715;
+    font-size: 30px;
+    background-color: darkgrey;
+}
+.about1 table th:hover{
+    opacity: .3;
+}
+
 
