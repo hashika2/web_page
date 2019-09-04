@@ -237,6 +237,12 @@ ul li:nth-child(7){
     border-radius: 10px;
     background-color: #dfd68b;
 }
+ a{
+    text-decoration: none;
+    background-color: #dfd68b;
+    width: 250px;
+    height: 50px;
+}
 
 .navbar table tr:hover{
     opacity: .1;
@@ -267,9 +273,15 @@ table tr td{
     color: aqua;
     font-size:25px; 
 }
-.about p{
-    margin-top:50%;
-    margin-left:50%;
+
+.about {
+    top: 10%;
+    margin-left: 50%;
+    
+}
+.about table tr{
+    width: 250px;
+    height: 50px;
 }
 .content{
     position: absolute;
