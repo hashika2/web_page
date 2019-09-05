@@ -133,7 +133,7 @@ ul{
     padding: 0%;
     display: flex;
 }
-ul li{
+.details ul li{
     list-style: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -142,25 +142,28 @@ ul li{
     text-shadow: none;
     animation:anima 1s infinite linear;
 }
-ul li:nth-child(1){
+ul li{
+    list-style:none;
+}
+.details ul li:nth-child(1){
     animation-delay: .2s;
 }
-ul li:nth-child(2){
+.details ul li:nth-child(2){
     animation-delay: .4s;
 }
-ul li:nth-child(3){
+.details ul li:nth-child(3){
     animation-delay: .6s;
 }
-ul li:nth-child(4){
+.details ul li:nth-child(4){
     animation-delay: .8s;
 }
-ul li:nth-child(5){
+.details ul li:nth-child(5){
     animation-delay: 1s;
 }
-ul li:nth-child(6){
+.details ul li:nth-child(6){
     animation-delay: 1.2s;
 }
-ul li:nth-child(7){
+.details ul li:nth-child(7){
     animation-delay: 1.4s;
 }
 @keyframes anima{
@@ -250,7 +253,7 @@ ul li:nth-child(7){
 
 section .about{
     position: absolute;
-    top: 25%;
+    top: 28%;
     left: 70%;
     transform: translate(-50%,-50%);
     margin: 0%;
@@ -278,6 +281,9 @@ table tr td{
     top: 10%;
     margin-left: 50%;
     
+}
+td{
+    font-family: 'Times New Roman', Times, serif;
 }
 .about table tr{
     width: 250px;
@@ -353,6 +359,28 @@ iframe{
     background-color: darkgrey;
 }
 .about1 table th:hover{
+    opacity: .3;
+}
+.contact{
+    position: absolute;
+    top:40%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+.contact span {
+    color: #fff;
+    font-size:40px;
+    list-style: none;
+}
+.contact table th{
+    color: #181715;
+    font-size: 30px;
+    background-color: darkgrey;
+}
+.contact table th:hover{
     opacity: .3;
 }
 
