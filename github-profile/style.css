@@ -238,11 +238,10 @@ ul li{
 .navbar table tr{
     border:2px solid white;
     border-radius: 10px;
-    background-color: #dfd68b;
+    background-color: #cac8b1;
 }
- a{
+.navbar table tr td a{
     text-decoration: none;
-    background-color: #dfd68b;
     width: 250px;
     height: 50px;
 }
@@ -298,6 +297,9 @@ td{
     padding: 0%;
    
 }
+.content table tr{
+    width: 500px;
+}
 .content table tr td{
     margin-top:60%;
     margin-left:50%;
@@ -327,7 +329,7 @@ td{
     padding: 0%;
     display: flex;
 }
-.links ul li{
+.links ul li {
     padding-left: 10px;
 
 }
