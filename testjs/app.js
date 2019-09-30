@@ -44,3 +44,38 @@
 //                 xhr.send();
 
 // }
+
+//using jason file
+
+document.getElementById('button').addEventListener('click',getJsonFile);
+
+function getJsonFile(e){
+
+    const xhr=new XMLHttpRequest();
+
+    xhr.open('GET','customer.json',true);
+
+    xhr.onload=function(){
+                    //console.log('hashika',xhr.readyState);
+                    if(this.status===200){
+                        const customers=JSON.parse(this.responseText);
+
+                        let output='';
+
+                        customers.forEach(function(customer){
+                            output+=
+                            <ul>
+                                <li>Id :${customer.id}</li>
+                                <li>Name:${customer.name}</li>
+                                <li>Num :${customer.number}</li>
+                                <li>Male :${customer.Male}</li>
+                            </ul>
+                        });
+                        document.getElementById('button').innerHTML=output;
+
+                        console.log(this.responseText);
+                    }
+                }
+                xhr.send();
+
+}
